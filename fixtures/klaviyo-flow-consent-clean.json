@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "id": "FLOW-500",
+      "flow": "Welcome nurture",
+      "audience": "New confirmed subscribers",
+      "platform": "Klaviyo + Shopify",
+      "owner": "Lifecycle Marketing",
+      "status": "ON_TRACK",
+      "workflowHealthy": true,
+      "hoursToSend": 6,
+      "packet": "welcome-flow packet",
+      "excerpt": "Consent and suppression evidence are already archived for the next welcome batch.",
+      "nextAction": "Keep the welcome flow green and archive the next delivery proof."
+    }
+  ],
+  "packets": [
+    {
+      "id": "PKT-999",
+      "programId": "FLOW-500",
+      "flow": "Welcome nurture",
+      "audience": "New confirmed subscribers",
+      "platform": "Klaviyo + Shopify",
+      "owner": "Lifecycle Marketing",
+      "domain": "CONSENT",
+      "kind": "ConsentEvidence",
+      "severity": "low",
+      "status": "RESOLVED",
+      "scope": "Double opt-in archive",
+      "principal": "welcome-consent",
+      "message": "Consent evidence archived and reconciled.",
+      "openedAt": "2026-05-20T08:00:00Z",
+      "dueAt": "2026-05-20T10:00:00Z"
+    }
+  ]
+}
